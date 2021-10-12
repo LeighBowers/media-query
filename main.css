@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.box{
+    display: flex;
+    float: left;
+    margin: 50px;
+ 
+}
+      
+@media screen and (max-width: 600px) {
+.desktop {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+}  .desktop{
+    display: block;
+}
+  
+}
